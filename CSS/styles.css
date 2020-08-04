@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    
+    overflow-x: hidden;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.125rem;
+}
+p{
+    margin: auto;
+    max-width: 50%;
+}
+h1{
+    font-weight: 600;
+}
+h2{
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+h3{
+    padding-top: 50px;
+}
+.hp{
+    max-width: 100%;
+}
+/***top section*/
+.container-fluid{
+    text-align: center;
+}
+.beginning{
+    background-image: url(../Images/bg-header-desktop.png);
+    height: 320px;
+}
+.logo{
+    margin: auto;
+    padding-top: 100px;
+    width: 100px;
+}
+.initial{
+    margin-top: 2rem;
+    font-weight: 600;
+}
+/**Second section**/
+.top-1{
+    display: block;
+    padding: 5% 0;
+    width: 100%;
+    text-align: center;
+}
+/**Third section**/
+.row{
+    padding-bottom: 10%;
+    line-height: 1.8;
+    width: 100%;
+
+}
+.desktop{
+    padding-left: 7%;
+    max-width: 95%;
+}
+.Quick{
+    text-align: left;
+    width: 90%;
+    padding-left: 3rem;
+}
+.desktop-text{
+    padding-top: 15%;
+}
+/**Fourth section**/
+.middle-1{
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    text-align: center;
+
+}
+.devices{
+    max-width: 100%;
+    padding-top: 5rem;
+}
+
+/**Fifth section**/
+.bottom{
+    text-align: center;
+}
+/**Sixth section**/
+.sixth-section{
+    padding: 4rem 0.3rem 0.3rem 3rem;
+    text-align: center;
+}
+.bottom-paragraph{
+    max-width: 100%;
+}
+/**Seventh section**/
+.logo-section{
+    text-align: center;
+
+}
+.logo-section-images{
+    margin: 0 48.5px 50px;
+}
+
+.penultimate{
+    padding-top:5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+/**Footer section**/
+
+.bottom-container{
+    background-color: #f5f6f8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+.logo-link{
+    width:40px;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 767px){
+.footer-row .footer-paragraph-container .middle-footer-row .col-md-4{
+   text-align: left;
+}
+}
+
+
+.footer-paragraph-container{
+    text-align: left;
+}
+
+
+.footer-paragraph{
+    font-weight: 400;
+    font-size:14px;
+}
+.footer-row{
+    padding-bottom: 0;
+    text-align: center;
+}
+.middle-footer-row{
+    text-align: center;
+    margin-left:0;
+
+}
+.icon{
+    padding:0 1rem;
+}
+.btn-success{
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+    border-radius: 2rem;
+    margin: 2rem 0.5rem;
+}
+.btn-success:hover{
+    background-color: hsl(171, 33%, 57%);
+     border-color: hsl(171, 33%, 57%);
+
+}
+.btn-info{
+    background-color: hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 69%);
+    border-radius: 2rem;
+    margin: 2rem 0.5rem;
+}
+.btn-info:hover{
+    background-color: hsl(233, 77%, 76%);
+    border-color: hsl(233, 77%, 76%);
+}
